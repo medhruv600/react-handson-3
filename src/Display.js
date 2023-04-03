@@ -10,7 +10,7 @@ export default class Display extends Component {
       <>
         <div className="mainbox container">
           {this.props.value.map((item, index) => {
-            // console.log(item.name);
+            console.log(item.name);
             return (
               <span className="container box1" key={index}>
                 <span>
